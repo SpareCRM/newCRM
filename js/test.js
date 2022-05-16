@@ -1,8 +1,8 @@
 //import {openModal} from "./testTask.js"
-import { createTaskItem,  } from "./tasks/createTaskItem.js";
-import { createTaskDoneItem } from "./tasks/createTaskDoneItem.js";
-import {createTaskSection} from "./tasks/createTaskSection.js"
-import { getTasks, getDoneTasks } from "./tasks/taskApi.js";
+import { createTaskItem,  } from "./createTaskItem.js";
+import { createTaskDoneItem } from "./createTaskDoneItem.js";
+import {createTaskSection} from "./createTaskSection.js"
+import { getTasks, getDoneTasks } from "./taskApi.js";
 import { createClientsHeader } from "./createHeader.js";
 
 
