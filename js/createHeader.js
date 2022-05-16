@@ -32,11 +32,11 @@ export const createClientsHeader = () => {
      
      
      taskBtn.addEventListener('click', () => {
-        window.location.href = '/client/tasks.html';
+        window.location.href = '/spareCRM/tasks.html';
      });
 
      contactBtn.addEventListener('click', () => {
-        window.location.href = '/client/index.html';
+        window.location.href = '/spareCRM/index.html';
      });
 
     containerBtn.append(contactBtn, taskBtn)
