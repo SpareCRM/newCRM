@@ -1,0 +1,9 @@
+.tasks__full-name {
+    width: calc(32% + 5px);
+    font-size: 14px;
+    color: var(--color-black3);
+}
+
+.tasks__full-name span {
+    display: inline-block;
+}
