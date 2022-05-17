@@ -1,6 +1,6 @@
 import { createTask } from "./modalTask.js";
 import { createTaskItem } from "./createTaskItem.js";
-import { deleteTaskModal } from './DeleteTaskModal.js';
+import { deleteTaskModal } from './deleteTaskModal.js';
 import { sendTasksDoneData } from "./taskApi.js";
 import { sendTasksData } from "./taskApi.js";
 
