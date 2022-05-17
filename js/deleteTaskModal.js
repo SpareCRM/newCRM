@@ -1,4 +1,4 @@
-import { svgSpinner } from "../svg.js";
+import { svgSpinner } from "./svg.js";
 
 export const deleteTaskModal = () => {
     const deleteModalContent = document.createElement('div');
