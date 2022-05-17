@@ -108,11 +108,17 @@ export const createLoginForm = () => {
 
        await loginData(credData, 'POST');
 
-       window.location.href = '/index.html';
+       window.location.href = '/newCRM/index.html';
        
        //console.log(localStorage.getItem('token'));
        
       
+    });
+    
+    cancelBtn.addEventListener('click', async (e) => {
+        e.preventDefault();
+       window.location.href = '/newCRM/registration.html';
+   
     });
     
 
