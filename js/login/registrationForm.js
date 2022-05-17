@@ -110,9 +110,17 @@ export const createRegForm = () => {
        await registrationData(credData, 'POST');
        
        
-       window.location.href = '/index.html';
+       window.location.href = '/newCRM/index.html';
    
     });
+    
+    cancelBtn.addEventListener('click', async (e) => {
+        e.preventDefault();
+       window.location.href = '/newCRM/login.html';
+   
+    });
+    
+    
    
 
     labelName.append(requiredName);
